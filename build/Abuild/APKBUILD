@@ -3,7 +3,7 @@
 # Maintainer: Aaron Bassett <abassett@qnx.com>
 pkgname=tree-sitter-c
 pkgver=0.24.1
-pkgrel=${pkgrel:-0}
+pkgrel=2
 pkgdesc="C grammar for tree-sitter"
 url="https://github.com/tree-sitter/tree-sitter-c"
 arch="all"
@@ -27,7 +27,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 51cf052230ee835d4ae5e6c5adb24aeaeba3b4f106aceefaf4000bd0e57321946f1b3e3b0f9ea71d1c17a618604c6c7269c80c3ecc5ca17e22c883ff5ce4c304  tree-sitter-c-0.24.1.tar.gz
 "
